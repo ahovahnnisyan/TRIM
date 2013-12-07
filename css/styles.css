@@ -22,7 +22,7 @@ ul, p{
 	width: 100%;
 	margin: 0 auto;
 }
-#header{
+#container{
 	min-height: 260px;
 	overflow-x: hidden;
 	background:  url(../images/header_cont.png) repeat-x 0 0 #FFFFFF;
@@ -202,10 +202,12 @@ ul, p{
 	position: relative;
 	top: -343px;
 	left: 35px;
+	margin: 0 auto;
 }
 .container_part{
 	width:1035px;
 	margin:-330px auto 0 auto;
+	overflow: hidden;
 }
 ul{
 	list-style-type:none;
@@ -232,8 +234,7 @@ ul{
 	float:left;
 }
 .green_field{
-	width:595px;
-	float:left;
+	
 	/*background: #f5ffec;
 	background: -moz-linear-gradient(top, #f5ffec 1%, #e7ffd2 34%, #d8ffb5 99%); 
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#f5ffec), color-stop(34%,#e7ffd2), color-stop(99%,#d8ffb5)); 
@@ -242,6 +243,157 @@ ul{
 	background: -ms-linear-gradient(top, #f5ffec 1%,#e7ffd2 34%,#d8ffb5 99%); 
 	background: linear-gradient(to bottom, #f5ffec 1%,#e7ffd2 34%,#d8ffb5 99%); 
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5ffec', endColorstr='#d8ffb5',GradientType=0 ); */
-	min-height:200px;
 	background:  url(../images/green_field.png) no-repeat 0 0 transparent;
+	width: 615px;
+	float: left;
+	height: 410px;
+	margin-top: -103px;
+}
+.green_field_heading{
+	margin-top: 120px;
+	font-size: 18px;
+	color: #000;
+	margin-left: 50px;
+	width: 503px;
+}
+.symptoms{
+	margin-left: 47px;
+	margin-top: 30px;
+	float:left;
+}
+.symptoms li{
+	background:  url(../images/check_sign.png) no-repeat 0 0 transparent;
+	clear: left;
+	overflow: hidden;
+	height: 30px;
+	margin-bottom: 10px;
+}
+.symptoms li span{
+	font-size: 15px;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-left: 40px;
+	line-height: 32px;
+}
+.dominating{
+	width:1035px;
+	margin: 60px auto 0 auto;
+	overflow: hidden;
+	background:  url(../images/dominating_bg.png) no-repeat 0 0 transparent;
+	min-height:450px;
+}
+.media_parts{
+	overflow: hidden;
+	width: 670px;
+	min-height: 300px;
+	margin-top: 103px;
+	margin-left: 16px;
+	padding-top: 25px;
+	padding-left: 35px;
+}
+.redbook, .cbs, .fox_news{
+	float:left;
+	width: 223px;
+}
+.redbook p, .cbs p, .fox_news p{
+	width: 210px;
+	word-wrap: break-word;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: bold;
+	padding-top: 30px;
+}
+.benefits{
+	background:  url(../images/benefits.png) no-repeat -30px 0px transparent;
+	width: 1324px;
+	min-height: 1058px;
+	position: relative;
+	margin: 0 auto;
+}
+.ben_contains{
+	width: 958px;
+	min-height: 500px;
+	margin-left: 155px;
+	padding-top: 202px;
+}
+.persons{
+	margin-left: 60px;
+	float: left;
+}
+.left_part{
+	float:left;
+	width:479px;
+}
+.ben_suggest{
+	float: left;
+	text-transform: uppercase;
+	margin-top: 29px;
+	line-height: 28px;
+	padding-left: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color:#91b81b;
+}
+.ben_suggest span{
+	color: #000;
+}
+.left_part div{
+	overflow:hidden;
+	width:100%;
+	margin-top: 26px;
+}
+.left_part div:first-child{
+	margin-top: 0px !important;
+}
+.right_part div{
+	overflow:hidden;
+	width:100%;
+	margin-top: 26px;
+}
+.right_part{
+	float:left;
+	width:479px;
+}
+.right_part div:first-child{
+	margin-top: 0px !important;
+}
+.ben_suggest2{
+	float: left;
+	text-transform: uppercase;
+	margin-top: 29px;
+	line-height: 28px;
+	padding-left: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color:#0193ce;
+}
+.trim{
+	width: 958px;
+	min-height: 500px;
+	margin-left: 155px;
+	padding-top: 170px;
+}
+.opinion{
+	width: 200px;
+	float: left;
+	padding-left: 20px;
+	color: #000;
+	font-size: 14px;
+}
+.footer{
+	background:  url(../images/footer.png) no-repeat 0px 0px transparent;
+	width: 1060px;
+	margin: -360px auto 0 auto;
+	overflow: hidden;
+	min-height: 478px;
+	position: relative;
+	z-index: 1000;
+}
+.additional{
+	float: right;
+	margin-right: 94px;
+	margin-top: 300px;
 }
