@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="css/styles.css" rel="stylesheet" />
+	<link href="css/jqtransform.css" rel="stylesheet" />
+	<script type="text/javascript" src="js/jquery.js" ></script>
+	<script type="text/javascript" src="js/jquery.jqtransform.js" ></script>
+	<script language="javascript">
+		$(function(){
+			$('form').jqTransform({imgPath:'../images/'});
+		});
+	</script>  
+	
+</head>
+<body>
+	<div id="wrapper">
+		<div id="container">
+			<div class="logo_part">
+				<img class="logo" src="./images/logo.png" alt="" />
+			</div>	
+		
+			<div id="header_contain">
+				<div class="info">
+					<div class="for_text"><a href="#">Payment information</a></div>
+					<div class="heading"><span>Final step</span></div>
+				</div>
+			</div>
+			<div class="new_bg">
+				<div class="left_section">
+					<div class="product_price">
+						<div class="title">
+							<p>product</p>
+							<p>price</p>
+						</div>
+						<div class="product_price_cont">
+							<div class="left_column">
+								<p>Trim and Cleanse 90 Day Supply</p>
+							</div>
+							<div class="right_column">
+								<p class="right_text">free</p>
+							</div>
+						</div>
+						<div class="product_price_cont2">
+							<div class="left_column2">
+								<p class="method_choosing">Please Choose Your Method of Shipping</p>
+								<form>
+									<select name="select2" >
+										<option value="opt1">Select One<option>
+										<option value="opt2">Option 2</option>
+										<option value="opt3">Option 3</option>
+										<option value="opt4">Option 4</option>
+										<option value="opt5">Option 5</option>
+										<option value="opt6">Option 6</option>
+										<option value="opt7">Option 7</option>
+										<option value="opt8">Option 8</option>
+									</select>
+								</form>
+							</div>
+							<div class="right_column2">
+								<p class="cost">Cost of Shipping</p>
+								<p class="cost2">&#36; 9.95</p>
+							</div>
+						</div>
+						<div class="product_cont">
+							<p class="discount">Discount Activated! Savings Applied - <span>&#36; 5.00</span></p>
+							<p class="total_cost">Total Cost: <span>&#36; 4.95 </span></p>
+						</div>
+						<a class="claim" href="#">
+							<img src="./images/claim_btn.png" alt="" />
+						</a>
+					</div>
+					<div class="shipment">
+						<img src="./images/postal.png" alt="" />
+						<p class="ship_text">Your Shipment is estimated to arrive by December 4 2013</p>
+						<img style="margin-top: 15px;" src="./images/verified.png" alt="" /><br/>
+						<p class="ship_text2">100% Satisfaction Risk Free Guaranteed Offer, You are ordering a ten day evaluation
+						of Trim & Cleanse Kit today for just the price of shipping! We are so confident in the 
+						results of our product that we would like you to try and evaluate our product for ten days!
+						Ten days after your order if you are happy with the product. You will be billed the discounted 
+						price of $148. This is a one time charge and will not be charged again unless you place another order. 
+						If you are not happy with our product within your ten day evaluation period please contact our customer
+						service department @ 1-800-565-1330 to opt out of the 1 year Trim & Cleanse System. Your order
+						will be shipped within one business day to the address that you entered on the previous page.
+						</p>
+					</div>
+				</div>
+				<div class="right_section">
+					<div class="reg_form_part">
+						<form style="right: 21px;top: -30px;">
+							<div class="inp_part"><span class="info_text">First name:</span> <input class="inp_style" type="text" name=""></div>
+							<div class="inp_part"><span class="info_text">Last name:</span> <input class="inp_style" type="text" name=""></div>
+							<div class="inp_part"><span class="info_text">adress:</span> <input class="inp_style" type="text" name=""></div>
+							<div class="inp_part"><span class="info_text">city:</span> <input class="inp_style" type="text" name=""></div>
+							<div class="rowElem inp_part">
+								<span class="info_text">state:</span>
+								<select name="select2" >
+									<option value="opt1">Select One<option>
+									<option value="opt2">Option 2</option>
+									<option value="opt3">Option 3</option>
+									<option value="opt4">Option 4</option>
+									<option value="opt5">Option 5</option>
+									<option value="opt6">Option 6</option>
+									<option value="opt7">Option 7</option>
+									<option value="opt8">Option 8</option>
+								</select>
+							</div>
+							<div class="inp_part"><span class="info_text">zip:</span> <input class="inp_style" type="text" name=""></div>
+							<div class="inp_part"><span class="info_text">Phone:</span> <input class="inp_style" type="text" name=""></div>
+							<div class="inp_part"><span class="info_text">E-mail:</span> <input class="inp_style" type="text" name=""></div>
+							<div class="rowElem">
+								<label class="billing_address">Is your billing addresS the same as your shipping address?</label>  <br/>
+								<div style="margin-left: 145px !important;">
+									<input type="radio" id="" name="question" value="oui" checked ><label class="choosings">yes</label>
+									<input type="radio" id="" name="question" value="non" ><label class="choosings">no</label>
+								</div>
+							</div>
+							<div class="payment_carts">
+								<a href="#"><img src="./images/visa.png" alt="" /></a>
+								<a href="#"><img src="./images/master.png" alt="" /></a>
+								<a href="#"><img src="./images/discover.png" alt="" /></a>
+							</div>
+							<div class="inp_part"><span class="info_text">Card no:</span> <input class="inp_style" type="text" name=""></div>
+							<div class="rowElem inp_part exp_date">
+								<span class="info_text exp">exp date:</span>
+								<select name="select2" class="left_sel">
+									<option value="opt1"><option>
+									<option value="opt1">as<option>
+								</select>
+								<select name="select2" >
+									<option value="opt1"><option>
+									<option value="opt1">as<option>
+								</select>
+							</div>
+							<div class="inp_part">
+								<span class="info_text">CVV2:</span> <input class="inp_style cvv" type="text" name="">
+								<a href="#" class="whatsthis">what's this?</a>
+							</div>
+							<button class="rush_btn" style="margin-left: 60px;">rush my order</button>
+						</form>
+						<p class="secure"><b>secure</b>128-bit SSL Connection</p>
+					</div>
+					<img style="margin-left: 83px;" src="./images/corporation.png" alt="" />
+				</div>
+			</div>
+			<div class="footer">
+				<p class="ship_text2">Copyright © 2013. TrimAndCleanse.com. All rights reserved.</p>
+				<ul class="horizontal_menu">
+					<li><a href="#">Terms & Conditions</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+				<ul class="horizontal_menu2">
+					<li>|</li>
+					<li>|</li>
+				</ul>
+				<div class="sentance ship_text2">
+					† These statements have not been evaluated by the Food and Drug Administration. These products are not intended 
+					to diagnose, treat, cure, or prevent any disease. Read the entire label before use.
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,424 @@
+body{
+	background: #FFFFFF;
+    font: 12px 'Myriad Pro',sans-serif;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	color: #5d5e60;
+}
+ul, p{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: Super Retro Italic M54;
+	src:url('fonts/Super Retro Italic M54.ttf');
+	font-family: Super Retro M54;
+	src:url('fonts/Super Retro M54.ttf');
+}
+#wrapper{
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+#container{
+	overflow-x: hidden;
+	padding-bottom: 20px;
+}
+#header_contain{
+	height: auto;
+	width: 1170px;
+	margin: -60px auto 0 auto;
+	background:  url(../images/header_bg.png) no-repeat -52px 8px transparent;
+	min-height: 282px;
+	padding-left:25px;
+}
+.logo_part{
+	height: auto;
+	width: 1005px;
+	margin: 0 auto;
+	min-height: 27px;
+	padding-top: 20px;
+}
+.logo_part img{
+	float:left;
+}
+.info{
+	float:right;
+	background:  url(../images/top.png) no-repeat 0 0 transparent;
+	width: 341px;
+	height: 83px;
+	margin-right: 120px;
+	margin-top: 162px;
+	position: relative;
+	z-index: 10000000000;
+}
+.for_text{
+	width:175px;
+	margin:0 auto;
+	text-align:center;
+}
+.for_text a{
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-family: Super Retro Italic M54;
+	font-weight: bold;
+	line-height: 22px;
+	font-size: 12px;
+	padding-left: 2px;
+	text-decoration:none;
+}
+.heading{
+	width:341px;
+	margin:0 auto;
+	text-align:center;
+}
+.heading span{
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-family: Super Retro Italic M54;
+	font-weight: bold;
+	line-height: 58px;
+	font-size: 26px;
+	font-style: italic;
+	letter-spacing: -2px;
+}
+.new_bg{
+	background:  url(../images/bg_new.png) no-repeat 5px 0 transparent;
+	width: 1365px;
+	min-height: 418px;
+	margin: 20px auto 0 auto;
+	overflow: hidden;
+}
+.product_price{
+	width:580px;
+	border:1px solid #cacaca;
+	border-radius: 22px;
+	-webkit-border-radius: 22px;
+	-moz-border-radius: 22px;
+	min-height: 380px;
+	margin-left: 207px;
+	float: left;
+	background:  url(../images/la.png) no-repeat 0 0 transparent;
+}
+.title p{
+	color: #527013;
+	float: left;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 0px 0px 4px #FFFFFF;
+	text-align: left;
+	line-height: 50px;
+	font-size: 14px;
+}
+.title {
+	width: 395px;
+	float: left;
+	margin-left: 185px;
+}
+.title p:last-child{
+	float:right;
+	margin-right: 30px;
+}
+.product_price_cont{
+	width: 395px;
+	overflow:hidden;
+	margin-left: 185px;
+	margin-top: 70px;
+}
+.left_column{
+	width: 268px;
+	float: left;
+}
+.right_column{
+	width:127px;
+	float:left;
+}
+.right_text{
+	float: right;
+	margin-right: 31px;
+	color: #000;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.left_column p, .left_column2 p{
+	color: #000;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+.product_price_cont2{
+	background: #edf4e4;
+	width: 355px;
+	padding: 15px;
+	margin-left: 185px;
+	margin-top: 20px;
+	min-height: 57px;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+.method_choosing{
+	font-weight: normal !important;
+	font-size: 13px !important;
+}
+.jqTransformSelectWrapper div span{
+	left:0px !important;
+}
+.jqTransformSelectWrapper{
+	margin-left: 9px;
+	margin-top: 10px;
+	width: 208px !important;
+}
+.cost{
+	font-size: 13px;
+	font-weight: bold;
+	color: #000;
+}
+.right_column2{
+	width: 105px;
+	float: left;
+}
+.left_column2{
+	width: 250px;
+	float: left;
+}
+.cost2{
+	margin-top: 18px;
+	text-align: right;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000;
+}
+.discount{
+	color: #ff0000;
+}
+.product_cont{
+	margin-top: 13px;
+	text-align: right;
+	width: 379px;
+	font-weight: bold;
+	font-size: 15px;
+	overflow: hidden;
+	margin-left: 185px;
+}
+.total_cost{
+	color: #000;
+	font-size: 35px;
+	line-height: 65px;
+}
+.reg_form_part{
+	float: left;
+	width: 339px;
+	min-height: 795px;
+	margin-left: 27px;
+	background:  url(../images/border_blue.png) no-repeat 0 0 transparent;
+	margin-top: 35px;
+}
+.info_text{
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 36px;
+	margin-right: 0px;
+}
+.inp_style{
+	background: #f5f5f5; /* Old browsers */
+	background: -moz-linear-gradient(top, #f5f5f5 1%, #fefefe 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#f5f5f5), color-stop(100%,#fefefe)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f5f5f5 1%,#fefefe 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f5f5f5 1%,#fefefe 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f5f5f5 1%,#fefefe 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #f5f5f5 1%,#fefefe 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
+	border:1px solid #cacaca;
+	width:180px !important;
+	height:30px;
+	border-radius: 5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	float: right;
+	margin-right: 10px;
+}
+.inp_part{
+	margin-top: 10px;
+	text-align: right;
+	width: 100%;
+}
+.inp_part div{
+	float:right;
+}
+.inp_part  .jqTransformSelectWrapper:last-child{
+	width: 180px !important;
+	margin-left: 17px;
+	margin-right: 10px;
+}
+.rush_btn{
+	background:  url(../images/rush_btn.png) no-repeat 0 0 transparent;
+	width: 279px;
+	height: 77px;
+	border: none;
+	margin-left: 50px;
+	margin-top: 15px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 23px;
+	padding-top: 20px;
+	text-align: center;
+	padding-left: 0px;
+	cursor:pointer;
+	position: relative;
+	z-index: 100000;
+}
+.rush_btn:hover{
+	cursor:pointer;
+	opacity:0.8;
+}
+.billing_address{
+	width: 207px;
+	text-align: center;
+	margin: 0 auto !important;
+	float: none !important;
+	clear: both;
+	padding-left: 55px;
+	text-transform: uppercase;
+	padding-top: 15px;
+	color: #000;
+	font-weight: bold;
+	font-size: 11px;
+}
+.choosings{
+	text-transform: uppercase;
+	color: #000;
+	font-weight: bold;
+	line-height: 21px;
+	font-size: 11px;
+}
+.reg_form_part .jqtransformdone .rowElem  .jqTransformSelectWrapper div span {
+	left: -30px !important;
+}
+.reg_form_part .jqtransformdone .rowElem  .jqTransformSelectWrapper ul {
+	width: 178px !important;
+}
+.payment_carts{
+	width: 191px;
+	overflow: hidden;
+	margin: 0 auto;
+	padding-left: 85px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.payment_carts img{
+	float:left;
+	margin-right: 10px;
+}
+.exp_date  .jqTransformSelectWrapper{
+	width: 87px !important;
+	margin-top: 3px;
+	margin-right: 10px;
+}
+.exp_date .jqTransformSelectWrapper:last-child{
+	width: 87px !important;
+	margin-right: 0px !important;
+}
+.reg_form_part .jqtransformdone .rowElem .jqTransformSelectWrapper ul, .exp_date .jqtransformdone .rowElem .jqTransformSelectWrapper ul {
+	width: 85px !important;
+}
+.secure{
+	text-transform: uppercase;
+	color: #000;
+	font-size: 14px;
+	text-align: center;
+	background: url(../images/key.png) no-repeat 3px -3px transparent;
+	margin-top: -23px;
+	height: 44px;
+	padding-top: 15px;
+	margin-left: 32px;
+}
+.left_section{
+	float:left;
+	width: 793px;
+}
+.shipment{
+	width: 580px;
+	float: left;
+	margin-left: 206px;
+	margin-top: 30px;
+}
+.right_section{
+	float:left;
+	width:380px;
+}
+.shipment img{
+	float:left;
+}
+.ship_text{
+	color: #ff3030;
+	font-size: 13px;
+	padding-top: 13px;
+	padding-left: 175px;
+	font-weight: bold;
+}
+.ship_text2{
+	color: #9a9a9a;
+	float: left;
+	padding-top: 20px;
+}
+.footer{
+	width:970px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.horizontal_menu{
+	float:right;
+	list-style-type:none;
+	margin-top: 20px;
+}
+.horizontal_menu li{
+	float:left;
+	margin-left: 15px;
+}
+.horizontal_menu li a{
+	color: #70c1db;
+	font-size: 11px;
+	text-decoration:none;
+	cursor:pointer;
+}
+.horizontal_menu2{
+	position: relative;
+	list-style-type: none;
+	left: 409px;
+	top: 20px;
+}
+.horizontal_menu2 li{
+	float: left;
+	color: #9a9a9a;
+	margin-left: 81px;
+}
+.sentance{
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 15px;
+}
+.cvv{
+	width: 67px !important;
+	position: relative;
+	right: 114px;
+}
+.whatsthis{
+	color: #70c1db;
+	font-size: 14px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	position: relative;
+	float: right;
+	margin-top: -27px;
+	margin-right: 15px;
+}
