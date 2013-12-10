@@ -255,6 +255,11 @@ ul, p{
 	width: 180px !important;
 	margin-left: 17px;
 	margin-right: 10px;
+	border-top: 1px solid #cacaca;
+	border-left: 1px solid #cacaca;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
 }
 .rush_btn{
 	background:  url(../images/rush_btn.png) no-repeat 0 0 transparent;
@@ -320,6 +325,14 @@ ul, p{
 	width: 87px !important;
 	margin-top: 3px;
 	margin-right: 10px;
+		margin-left: 17px;
+	margin-right: 10px;
+	border-top: 1px solid #cacaca;
+	border-left: 1px solid #cacaca;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+
 }
 .exp_date .jqTransformSelectWrapper:last-child{
 	width: 87px !important;
@@ -327,6 +340,9 @@ ul, p{
 }
 .reg_form_part .jqtransformdone .rowElem .jqTransformSelectWrapper ul, .exp_date .jqtransformdone .rowElem .jqTransformSelectWrapper ul {
 	width: 85px !important;
+}
+ .reg_form_part .jqtransformdone   .short_select .jqTransformSelectWrapper ul{
+	width: 178px !important;
 }
 .secure{
 	text-transform: uppercase;

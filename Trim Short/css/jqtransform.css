@@ -55,7 +55,7 @@ form.jqtransformdone div.rowElem{
 	right: 0px;
 	width: 33px;
 	height: 31px;
-	background: url(../images/select_right.gif) no-repeat 0px 1px;
+	background: url(../images/select_right.gif) no-repeat 0px 0px;
 }
 
 .jqTransformSelectWrapper ul {
